@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+
+    background-color: black;
+    background-image:
+        radial-gradient(circle at top right,
+            rgb(255, 255, 255),
+            black 45%);
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(49, 48, 48);
+    color: white;
+}
+
+#projects {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#contacts {
+    height: 100vh;
+    background-color: rgb(49, 48, 48);
+}
+
+#formContainer {
+    height: 30rem;
+    width: 60%;
+    border-radius: 20px;
+}
