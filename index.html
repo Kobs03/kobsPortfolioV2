@@ -24,7 +24,7 @@
     <div class="container-fluid">
         <nav class="navbar bg-secondary bg-opacity-10 navbar-expand-lg fixed-top p-3 mx-auto">
             <div class="container">
-                <a href="" class="navbar-brand fw-bold" to="/"><span id="green"> JD</span></a>
+                <a href="" class="navbar-brand fw-bold" to="/"><span class="greenGlow" id="green"> JD</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -33,15 +33,15 @@
                 <div class="collapse navbar-collapse text-center">
                     <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link fw-bold text-dark" to="/about"><span id="green">
+                            <a href="#about" class="nav-link fw-bold text-dark" to="/about"><span class="greenGlow" id="green">
                                     ABOUT</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projects" class="nav-link fw-bold text-dark" to="/projects"><span id="green">
+                            <a href="#projects" class="nav-link fw-bold text-dark" to="/projects"><span class="greenGlow" id="green">
                                     PROJECTS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contacts" class="nav-link fw-bold text-dark" to="/contact"><span id="green">
+                            <a href="#contacts" class="nav-link fw-bold text-dark" to="/contact"><span class="greenGlow" id="green">
                                     CONTACTS</span></a>
                         </li>
                     </ul>
@@ -132,7 +132,7 @@
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-4 mb-3">
-                        <div class="card rounded-4 shadow-lg bg-dark text-light p-5">
+                        <div class="card rounded-4 bg-dark text-light p-5">
                             <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body mt-2">
                                 <h5 id="green" class="card-title my-4">INVOKE SPELL SIMULATOR</h5>
@@ -144,7 +144,7 @@
                     </div>
 
                     <div class="col-md-4 mb-3">
-                        <div class="card rounded-4 shadow-lg bg-dark text-light p-5 h-100">
+                        <div class="card rounded-4 bg-dark text-light p-5 h-100">
                             <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
                                 <h5 id="green" class="card-title my-4">PINAYFLIX</h5>
@@ -156,7 +156,7 @@
                     </div>
 
                     <div class="col-md-4 mb-3">
-                        <div class="card rounded-4 shadow-lg bg-dark text-light p-5 h-100">
+                        <div class="card rounded-4 bg-dark text-light p-5 h-100">
                             <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
                                 <h5 id="green" class="card-title my-4">SNEAK PAD</h5>
@@ -174,10 +174,10 @@
     <!-- Contacs section -->
 
     <section class="container-fluid d-flex justify-content-center align-items-center" id="contacts">
-        <content class="container">
-            <div class="container text-center text-dark bg-light py-5" id="formContainer">
+        <content class="container d-flex justify-content-center">
+            <div class="boxShadow  text-center text-light bg-dark py-5" id="formContainer">
 
-                <div class="col mb-4">
+                <div id="green" class="col mb-4">
                     <h2>Get in touch</h2>
                 </div>
 
@@ -186,23 +186,23 @@
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="form-group mb-3 row w-50 ">
                                 <!-- <label for="name" class="col-sm-2 col-form-label">Name : </label> -->
-                                <input type="text" class="form-control" placeholder="Name">
+                                <input type="text" class="form-control bg-secondary border-secondary" placeholder="Name">
                             </div>
                         </div>
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="form-group mb-3 row w-50 ">
                                 <!-- <label for="name" class="col-sm-2 col-form-label">Name : </label> -->
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" class="form-control bg-secondary border-secondary text" placeholder="Email">
                             </div>
                         </div>
                         <div class="d-flex justify-content-center align-items-center">
                             <div class="form-group mb-3 row w-50">
                                 <!-- <label for="message" class="col-sm-2 col-form-label">Message : </label> -->
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                                <textarea class="form-control bg-secondary border-secondary" id="message" rows="5" placeholder="Message"></textarea>
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-dark mt-3">Submit</button>
+                        <button type="submit" class="btn btn-success mt-3">Submit</button>
 
                     </form>
                 </div>
@@ -218,9 +218,9 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="social-icons col-6 d-flex justify-content-evenly">
-                    <a href="#"><i class="fa fa-facebook-official" style="font-size:36px"></i></i></a>
-                    <a href="#"><i class="fa fa-github" style="font-size:36px"></i></i></a>
-                    <a href="#"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+                    <a href="#"><i class="fa fa-facebook-official greenGlow" style="font-size:36px"></i></i></a>
+                    <a href="#"><i class="fa fa-github greenGlow" style="font-size:36px"></i></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square greenGlow" style="font-size:36px"></i></a>
                 </div>
             </div>
     </footer>
