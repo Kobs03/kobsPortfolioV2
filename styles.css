@@ -6,10 +6,45 @@ body {
 .ideas {
     font-family: 'Chakra Petch', sans-serif;
     font-weight: bolder;
+    font-size: 60px;
+}
+
+.intro {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .bodyTexts {
     font-family: 'DM Sans', sans-serif;
+}
+
+.card{
+    border: 1px solid white;
+}
+
+.dp {
+    border: 4px solid #00ca4c;
+    border-radius: 10%;
+    rotate: 10deg;
+    transition: 1s;
+}
+
+.dp-img {
+    rotate: -30deg;
+    transition: 1s;
+    filter: grayscale(1);
+    height: 400px;
+    width: 400px;
+}
+
+.dp:hover {
+    rotate: 0deg;
+}
+
+.dp-img:hover {
+    rotate: 0deg;
+    filter: grayscale(0);
 }
 
 #home {
@@ -46,7 +81,7 @@ body {
 }
 
 #green {
-    color: rgb(66, 155, 66);
+    color: #00ca4c;
     font-family: 'Chakra Petch', sans-serif;
 
 }
@@ -89,7 +124,7 @@ img {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 45%;
+    left: 48%;
     bottom: 18%;
     width: 50px;
     height: 50px;
@@ -102,7 +137,7 @@ img {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 45%;
+    left: 48%;
     bottom: 15%;
     width: 50px;
     height: 50px;
@@ -114,7 +149,7 @@ img {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 45%;
+    left: 48%;
     bottom: 13%;
     width: 50px;
     height: 50px;
