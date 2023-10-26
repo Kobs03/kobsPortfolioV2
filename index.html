@@ -10,14 +10,19 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Chakra+Petch:ital@0;1&family=Ultra&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container-fluid">
-        <nav class="navbar  navbar-dark navbar-expand-lg fixed-top p-3 mx-auto">
+        <nav class="navbar bg-secondary bg-opacity-10 navbar-expand-lg fixed-top p-3 mx-auto">
             <div class="container">
-                <a href="" class="navbar-brand fw-bold" to="/">JD</a>
+                <a href="" class="navbar-brand fw-bold" to="/"><span id="green"> JD</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -26,13 +31,16 @@
                 <div class="collapse navbar-collapse text-center">
                     <ul class="navbar-nav  mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link fw-bold" to="/about">About</a>
+                            <a href="#about" class="nav-link fw-bold text-dark" to="/about"><span id="green">
+                                    ABOUT</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#projects" class="nav-link fw-bold" to="/projects">Projects</a>
+                            <a href="#projects" class="nav-link fw-bold text-dark" to="/projects"><span id="green">
+                                    PROJECTS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contacts" class="nav-link fw-bold" to="/contact">Contact</a>
+                            <a href="#contacts" class="nav-link fw-bold text-dark" to="/contact"><span id="green">
+                                    CONTACTS</span></a>
                         </li>
                     </ul>
                 </div>
@@ -44,18 +52,35 @@
 
     <section class="container-fluid" id="home">
         <main class="container">
-            <p class="text-start fs-3">
-                Hi, I'm
-                <span class="fw-bolder">Jake!</span>
-            </p>
-            <h1 class="text-start big-heading">
-                Let's turn
-                <span id="rainbowText">IDEAS</span> into Reality.
-            </h1>
-            <p class="text-start text-muted">[ A FULL STACK WEB APP DEVELOPER ENTHUSIAST ]</p>
-            <button class="d-flex justify-content-start px-5 mt-4">
-                Scroll Down To Explore 
-            </button>
+            <div class="animated" id="box">
+                <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="animated" id="box1">
+                <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="animated" id="box2">
+                <img src="https://cdn1.iconfinder.com/data/icons/basic-ui-elements-coloricon/21/08-512.png"
+                    class="img-fluid" alt="">
+            </div>
+            <div class="col">
+                <p class="text-start fs-3 mb-1">
+                    Hi, I'm
+                    <span id="green" class="fw-bolder">Jake!</span>
+                </p>
+                <h1 class="ideas text-start big-heading mb-2">
+                    Let's turn
+                    <span id="green">IDEAS</span> into Reality.
+                </h1>
+                <p class="text-start">[ A FULL STACK WEB APP DEVELOPER ENTHUSIAST ]</p>
+            </div>
+            <!-- <div class="col d-flex justify-content-center">
+                <button class="d-flex justify-content-start px-5 mt-4">
+                    Explore
+                </button>
+            </div> -->
+
 
         </main>
     </section>
@@ -70,9 +95,9 @@
                         src="https://pbs.twimg.com/profile_images/607407036188364800/RVPB9keM_400x400.jpg" />
                 </div>
 
-                <div class="col-md-6 text-center mt-5">
+                <div class="col-md-6 mt-5">
                     <div class="col mt-3 mb-3 textColor">
-                        <h2 class="text-center">Get to know me.</h2>
+                        <h2 id="green">Get to know me.</h2>
                         <hr />
 
                         <div class="d-flex justify-content-center align-items-center mt-2">
@@ -91,47 +116,54 @@
 
     <!-- Projects section -->
 
-    <section class="m-5">
+    <section class="container-fluid bg-dark">
         <content class="container-fluid" id="projects">
 
-            <div class="col text-center">
-                <h1>Featured Projects</h1>
-                <hr class="border border-dark border-2" />
+            <div class="col text-center text-light">
+                <h1 id="green">Featured Projects</h1>
+                <hr class="border border-success border-2" />
             </div>
 
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img src="img/2.png" class="card-img-top" alt="Sample Image">
+                    <div class="col-md-4 mb-3">
+                        <div class="card rounded-4">
+                            <img src="img/3.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
                                 <h5 class="card-title">Invoke Spells Simulator</h5>
                                 <p class="card-text">This is a sample card with some content. You can customize this
                                     text as needed.</p>
-                                <a href="#" class="btn btn-secondary">Live Link</a>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-dark w-75">Live Link</a>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img src="img/2.png" class="card-img-top" alt="Sample Image">
+                    <div class="col-md-4 mb-3">
+                        <div class="card rounded-4">
+                            <img src="img/3.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
                                 <h5 class="card-title">Youtube Api display</h5>
                                 <p class="card-text">This is a sample card with some content. You can customize this
                                     text as needed.</p>
-                                <a href="#" class="btn btn-secondary">Live Link</a>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-dark w-75">Live Link</a>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card text-center">
-                            <img src="img/2.png" class="card-img-top" alt="Sample Image">
+                    <div class="col-md-4 mb-3">
+                        <div class="card rounded-4">
+                            <img src="img/3.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
                                 <h5 class="card-title">E-Commerce Web App</h5>
                                 <p class="card-text">This is a sample card with some content. You can customize this
                                     text as needed.</p>
-                                <a href="#" class="btn btn-secondary">Live Link</a>
+                                <div class="text-center">
+                                    <a href="#" class="btn btn-dark w-75">Live Link</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,29 +177,37 @@
     <section class="container-fluid d-flex justify-content-center align-items-center" id="contacts">
         <content class="container">
             <div class="container text-center text-dark bg-light py-5" id="formContainer">
-                <h2>Get in touch</h2>
-                <hr>
-                <form method="POST">
-                    <div class="mb-3 row">
-                        <label for="name" class="col-sm-2 col-form-label">Name : </label>
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" placeholder="Your Name">
+
+                <div class="col mb-4">
+                    <h2>Get in touch</h2>
+                </div>
+
+                <div class="col">
+                    <form method="POST">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="form-group mb-3 row w-50 ">
+                                <!-- <label for="name" class="col-sm-2 col-form-label">Name : </label> -->
+                                <input type="text" class="form-control" placeholder="Name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group mb-3 row">
-                        <label for="email" class="col-sm-2 col-form-label">Email : </label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="form-group mb-3 row w-50 ">
+                                <!-- <label for="name" class="col-sm-2 col-form-label">Name : </label> -->
+                                <input type="email" class="form-control" placeholder="Email">
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group mb-3 row">
-                        <label for="message" class="col-sm-2 col-form-label">Message : </label>
-                        <div class="col-sm-10">
-                            <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="form-group mb-3 row w-50">
+                                <!-- <label for="message" class="col-sm-2 col-form-label">Message : </label> -->
+                                <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                            </div>
                         </div>
-                    </div>
-                    <button type="submit" class="btn btn-secondary">Submit</button>
-                </form>
+
+                        <button type="submit" class="btn btn-dark mt-3">Submit</button>
+
+                    </form>
+                </div>
+
             </div>
         </content>
     </section>
@@ -175,12 +215,9 @@
     <!-- Footer section -->
 
 
-    <footer class="bg-dark text-light text-center py-3">
+    <footer class="bg-dark text-light text-center py-5">
         <div class="container">
-            <div class="row">
-                <div class="col-3 text-end py-1">
-                    Social Media Links: 
-                </div>
+            <div class="row d-flex justify-content-center">
                 <div class="social-icons col-6 d-flex justify-content-evenly">
                     <a href="#"><i class="fa fa-facebook-official" style="font-size:36px"></i></i></a>
                     <a href="#"><i class="fa fa-github" style="font-size:36px"></i></i></a>
