@@ -8,6 +8,10 @@ body {
     font-weight: bolder;
 }
 
+.bodyTexts {
+    font-family: 'DM Sans', sans-serif;
+}
+
 #home {
     display: flex;
     justify-content: center;
