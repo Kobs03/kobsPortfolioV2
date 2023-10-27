@@ -106,8 +106,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(49, 48, 48);
+    background-color: rgb(29, 28, 28);
     color: white;
+}
+
+#contacts {
+    background-color: rgb(29, 28, 28);
 }
 
 /* #projects {
@@ -138,10 +142,6 @@ body {
     filter: grayscale(0);
     -webkit-filter: drop-shadow(0 0 50px #c4c4c4);
     filter: drop-shadow(0 0 10px #00ca4c);
-}
-
-#contacts {
-    background-color: rgb(49, 48, 48);
 }
 
 #formContainer {
