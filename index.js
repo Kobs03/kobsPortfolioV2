@@ -3,7 +3,7 @@ const img2 = document.querySelector(".imgAnim1")
 const img3 = document.querySelector(".imgAnim2")
 const img4 = document.querySelector(".imgAnim3")
 
-const imgArr = ["assets/svg/html-1.svg", "assets/svg/css-3.svg", "assets/svg/javascript.svg", "assets/svg/bootstrap.svg",
+const imgArr = ["assets/svg/html-1.svg", "assets/svg/css-3.svg","assets/svg/bootstrap.svg", "assets/svg/vue.svg", "assets/svg/javascript.svg",
 "assets/svg/node.svg", "assets/svg/npm.svg", "assets/svg/express.svg", "assets/svg/mongodb-1.svg", "assets/svg/adobe.svg",  ]
 
 let index1 = 0
