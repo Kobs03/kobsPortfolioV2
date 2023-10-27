@@ -32,12 +32,12 @@ body {
 .dp {
     border: 3px solid white;
     border-radius: 10%;
-    rotate: 10deg;
+    rotate: 5deg;
     transition: 1s;
 }
 
 .dp-img {
-    rotate: -30deg;
+    rotate: -15deg;
     transition: 1s;
     filter: grayscale(1);
     height: 400px;
@@ -205,8 +205,8 @@ img {
 
 @media only screen and (max-width: 600px) {
     .dp-img {
-        height: 180px;
-        width: 180px;
+        height: 150px;
+        width: 150px;
     }
 
     .bodyTextsSize {
