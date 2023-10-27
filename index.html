@@ -24,7 +24,7 @@
     <div class="container-fluid">
         <nav class="navbar bg-secondary bg-opacity-10 navbar-expand-lg fixed-top p-3 mx-auto">
             <div class="container">
-                <a href="" class="navbar-brand fw-bold" to="/"><span class="greenGlow" id="green"> JD</span></a>
+                <a href="" class="navbar-brand fw-bold" to="/"><span class="textGlow" id="green"> JD</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,17 +34,17 @@
                     data-bs-target=".navbar-collapse">
                     <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
                         <li class="nav-item">
-                            <a href="#about" class="nav-link fw-bold text-dark" to="/about"><span class="greenGlow"
+                            <a href="#about" class="nav-link fw-bold text-dark" to="/about"><span class="textGlow"
                                     id="green">
                                     ABOUT</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="#projects" class="nav-link fw-bold text-dark" to="/projects"><span
-                                    class="greenGlow" id="green">
+                                    class="textGlow" id="green">
                                     PROJECTS</span></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#contacts" class="nav-link fw-bold text-dark" to="/contact"><span class="greenGlow"
+                            <a href="#contacts" class="nav-link fw-bold text-dark" to="/contact"><span class="textGlow"
                                     id="green">
                                     CONTACTS</span></a>
                         </li>
@@ -59,21 +59,21 @@
     <section class="container-fluid vh-100" id="home">
         <main class="container">
             <div class="animated" id="box">
-                <img src="img/arrowDrix.png" class="img-fluid" alt="">
+                <img src="assets/img/arrowDrix.png" class="img-fluid" alt="">
             </div>
             <div class="animated" id="box1">
-                <img src="img/arrowDrix.png" class="img-fluid" alt="">
+                <img src="assets/img/arrowDrix.png" class="img-fluid" alt="">
             </div>
             <div class="animated" id="box2">
-                <img src="img/arrowDrix.png" class="img-fluid" alt="">
+                <img src="assets/img/arrowDrix.png" class="img-fluid" alt="">
             </div>
             <div class="col">
-                <p class=" intro text-center">
+                <p class=" intro text-center homeHeader1">
                     Hi, I'm
-                    <span id="green" class="fw-bolder">Jake!</span>
-                    ,A Full-Stack Web App Developer
+                    <span id="green" class="fw-bolder">JAKE</span>
+                    , A Full-Stack Web App Developer
                 </p>
-                <h1 class="ideas text-center big-heading mb-2">
+                <h1 class="ideas text-center big-heading mb-2 homeHeader2">
                     Turning
                     <span id="green">IDEAS</span> into Reality.
                 </h1>
@@ -90,14 +90,13 @@
 
     <!-- About section -->
 
-    <section class="container-fluid vh-100" id="about">
+    <!-- <section class="container-fluid vh-100" id="about">
         <content class="container">
             <div class="row">
                 <div class="col-md-6 d-flex justify-content-center align-items-center">
                     <div class="dp">
-                        <!-- <img class="dp-img img-fluid"
-                            src="https://pbs.twimg.com/profile_images/607407036188364800/RVPB9keM_400x400.jpg" /> -->
-                        <img class="img-fluid dp-img" src="img/kalbo.jpg" alt="">
+                        
+                        <img class="img-fluid dp-img" src="assets/img/kalbo.jpg" alt="">
                     </div>
                 </div>
 
@@ -118,6 +117,54 @@
                 </div>
             </div>
         </content>
+    </section> -->
+
+    <!-- Skill area -->
+
+    <section class="container-fluid bg-dark vh-100" id="about">
+        <content class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="dp">
+                        <img class="img-fluid dp-img" src="assets/img/kalbo.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-3">
+                    <div class="col mt-3 mb-3 textColor">
+                        <h2 class="headerTexts" id="green">Get to know me.</h2>
+                        <hr />
+                        <div class="col">
+                            <div class="col d-flex justify-content-center align-items-center mt-2 vh-50">
+                                <p class="bodyTexts bodyTextsSize">
+                                    Hi I'm Jake! A web app developer enthusiast based in the philippines.
+                                    I'm into building responsive and stylish web apps and exploring variety of new ideas and
+                                    concepts that may be useful in our daily lives using mainly the MEVN technology stack
+                                    <br>
+                                    <br>
+                                    Aside from coding, I'm also passionate in 2D animations, music, design, animes, jrpg and gaming which
+                                    I think makes me a very interesting person to work with.
+                                </p>
+                            </div>
+                                <h2 class="headerTexts pt-2" id="green">Skills & tools</h2> <hr>
+                            <div class="col skillBox mt-4 p-2">
+
+                                <div class="row icon-container d-flex justify-content-evenly align-items-center">
+
+                                    <img class="img-fluid imgAnim imgGlow" src="assets/svg/html-1.svg" alt="skill">
+                                    <img class="img-fluid imgAnim1 imgGlow" src="assets/svg/css-3.svg" alt="skill">
+                                    <img class="img-fluid imgAnim2 imgGlow" src="assets/svg/javascript.svg" alt="skill">
+                                    <img class="img-fluid imgAnim3 imgGlow" src="assets/svg/bootstrap.svg" alt="skill">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
     </section>
 
     <!-- Projects section -->
@@ -126,17 +173,27 @@
         <content class="container-fluid" id="projects">
 
             <div class="col text-center text-light">
-                <h1 id="green">Featured Projects</h1>
+                <h1 class="headerTexts" id="green">Featured Projects</h1>
                 <hr class="border border-success border-2" />
             </div>
 
-            <div class="container">
+            <div class="container ">
                 <div class="row mt-5">
                     <div class="col-md-4 mb-3">
                         <div class="card rounded-4 bg-dark text-light p-5">
-                            <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
+                            <img src="assets/img/Asset_2.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body mt-2">
-                                <h5 id="green" class="card-title my-4">INVOKE SPELL SIMULATOR</h5>
+                                <h5 id="green" class="card-title my-4 headerTexts">INVOKE SPELL SIMULATOR</h5>
+                                <p class="card-text bodyTexts"> A game project based on Invoker Skills in DOTA 2 where I utilize the DOM manipulation, input events, array functions and unique javascript logics.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <div class="card rounded-4 bg-dark text-light p-5 h-100">
+                            <img src="assets/img/Asset_2.png" class="card-img-top" alt="Sample Image">
+                            <div class="card-body">
+                                <h5 id="green" class="card-title my-4 headerTexts">NINJAKOBS</h5>
                                 <p class="card-text bodyTexts">This is a sample card with some content. You can
                                     customize this
                                     text as needed.</p>
@@ -146,21 +203,9 @@
 
                     <div class="col-md-4 mb-3">
                         <div class="card rounded-4 bg-dark text-light p-5 h-100">
-                            <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
+                            <img src="assets/img/Asset_2.png" class="card-img-top" alt="Sample Image">
                             <div class="card-body">
-                                <h5 id="green" class="card-title my-4">PINAYFLIX</h5>
-                                <p class="card-text bodyTexts">This is a sample card with some content. You can
-                                    customize this
-                                    text as needed.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 mb-3">
-                        <div class="card rounded-4 bg-dark text-light p-5 h-100">
-                            <img src="img/Asset_2.png" class="card-img-top" alt="Sample Image">
-                            <div class="card-body">
-                                <h5 id="green" class="card-title my-4">SNEAK PAD</h5>
+                                <h5 id="green" class="card-title my-4 headerTexts">SNEAK PAD</h5>
                                 <p class="card-text bodyTexts">This is a sample card with some content. You can
                                     customize this
                                     text as needed.</p>
@@ -169,19 +214,24 @@
                     </div>
                 </div>
             </div>
+
         </content>
     </section>
 
     <!-- Contacs section -->
 
-    <section class="container-fluid d-flex justify-content-center align-items-center" id="contacts">
+    <section class="container-fluid d-flex justify-content-center align-items-center vh-100" id="contacts">
         <content class="container d-flex justify-content-center">
-            <div class="boxShadow  text-center text-light bg-dark py-5" id="formContainer">
+            <div class="boxShadow  text-center text-light bg-dark py-4" id="formContainer">
 
-                <div id="green" class="col mb-4">
-                    <h2>Get in touch</h2>
+                <div id="green" class="col mb-2">
+                    <h2 class="headerTexts">Get in touch</h2>
                 </div>
-
+                <div>
+                    <p class="bodyTexts">
+                        Thanks for checking my page out! <br> You got an idea or looking for collaboration projects? Let's talk it out!
+                    </p>
+                </div>
                 <div class="col">
                     <form method="POST">
                         <div class="d-flex justify-content-center align-items-center">
@@ -206,7 +256,7 @@
                             </div>
                         </div>
 
-                        <button type="submit" class="btn btn-success mt-3">Submit</button>
+                        <button type="submit" class="btn btn-success mt-2">Submit</button>
 
                     </form>
                 </div>
@@ -222,16 +272,19 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="social-icons col-6 d-flex justify-content-evenly">
-                    <a href="#"><i class="fa fa-facebook-official greenGlow" style="font-size:36px"></i></i></a>
-                    <a href="#"><i class="fa fa-github greenGlow" style="font-size:36px"></i></i></a>
+                    <a href="https://www.facebook.com/jakeobs.dedicatoria"><i class="fa fa-facebook-official greenGlow" style="font-size:36px"></i></i></a>
+                    <a href="https://github.com/Kobs03"><i class="fa fa-github greenGlow" style="font-size:36px"></i></i></a>
                     <a href="#"><i class="fa fa-linkedin-square greenGlow" style="font-size:36px"></i></a>
                 </div>
             </div>
     </footer>
 
+    <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    
 
 </body>
 
